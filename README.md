@@ -1,1 +1,3 @@
-# Chachared.github.io
+# onlineResume
+
+Charlotte Redier's online resume
