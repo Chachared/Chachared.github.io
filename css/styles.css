@@ -1,5 +1,5 @@
-@import url(https://fonts.googleapis.com/css?family=Questrial);
-@import url(http://fonts.googleapis.com/css?family=Dancing+Script:700);
+@import url("https://fonts.googleapis.com/css?family=Questrial");
+@import url("http://fonts.googleapis.com/css?family=Dancing+Script:700");
 
 html,
 body {
@@ -73,7 +73,7 @@ p {
 }
 
 .cursive {
-  font-family: "Dancing Script", cursive, "Questrial";
+  font-family: "Dancing Script", cursive;
   text-transform: none;
 }
 
@@ -490,12 +490,13 @@ fieldset[disabled] .btn-default.active {
 .btn {
   border: 0;
   border-radius: 290px;
-  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-family: "Questrial", "Helvetica Neue", Arial, sans-serif;
 }
 
 .btn-xl {
-  padding: 15px 30px;
+  padding: 10px 30px;
   font-size: 20px;
+  margin: 10px;
 }
 
 ::-moz-selection {
@@ -550,6 +551,7 @@ img::-moz-selection {
 
 .progressbar[title="downloading"] {
   background-color: var(--progress);
+  color: black;
 }
 
 .symfony,
