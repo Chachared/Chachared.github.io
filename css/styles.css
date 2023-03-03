@@ -544,35 +544,7 @@ img::-moz-selection {
   border-radius: 50px;
 }
 
-.progressbar[title="downloaded"] {
-  background-color: var(--success);
-}
-
-.progressbar[title="downloading"] {
-  background-color: var(--progress);
-  color: black;
-}
-
-.symfony,
-.html,
-.css,
-.php,
-.json,
-.git,
-.bootstrap,
-.github,
-.sql,
-.phpmyadmin {
-  width: 95%;
-}
-
-.angular,
-.vue {
-  width: 70%;
-}
-
-.typescript,
-.javascript,
-.wordpress {
-  width: 80%;
+.mdi-star-face {
+  font-size: xx-large;
+  color:goldenrod;
 }
